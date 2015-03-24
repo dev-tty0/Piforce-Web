@@ -1,9 +1,9 @@
 # Piforce-Web
-Piforce-Web is a raspberry pi image which loads creates a wireless access point and re-directs users to a web-bage containing images and links to the naomi games which you own, and allows you to netboot these games from your phone/laptop/tablet.
+Piforce-Web is a raspberry pi image which loads creates a wireless access point and re-directs users to a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone/laptop/tablet.
 
 This has the following advantages:
 
-- no need to open the naomi every time, or to run cables outside the cabinet
+- can be hidden inside the cab, so no need to open the naomi every time, or to run cables outside the cabinet
 - nice web page gui/game selection, which only shows the games you have loaded
 - fast boot times
 - no soldering required
@@ -44,14 +44,14 @@ Once done, the card can be used in Windows/Linux/OSx, and there is a /roms direc
 
 Using the image is very simple:
 
-- On powerup, a wireless network called 'naomi' will be created, you can connect to this with the password 'segarocks' using your phone/laptop/tablet.
+- On powerup, a wireless network called 'naomi' will be created, you can connect to this with the password '**segarocks**' using your phone/laptop/tablet.
 - Then visit any page (gg.com, asda.org, a.uk etc) and you will be automatically re-directed to a webpage showing clickable images and links to the games which are on your card. 
 - Selecting the image or link will load the game. 
 
 
 # Supported Wireless Cards
 
-This image was created and confirmed to be working with a Netgear wg111v2. These cards are cheap and widely available. In theory, any card supported by a raspbian wheezy image _should _ work, however I have not tried them, and cannot guarantee it will work. A list of these cards can be found here:
+This image was created and confirmed to be working with a **Netgear wg111v2**. These cards are cheap and widely available. In theory, any card supported by a raspbian wheezy image _should _ work, however I have not tried them, and cannot guarantee it will work. A list of these cards can be found here:
 http://elinux.org/RPi_USB_Wi-Fi_Adapters
 
 Note that if you do try multiple cards, you will need to re-burn the image each time, this is as otherwise each new card will be registered as a new interface (wlan0, wlan1, wlan2 etc) which will cause the script to fail. 
