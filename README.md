@@ -8,16 +8,18 @@ This has the following advantages:
 - fast boot times
 - no soldering required
 - just the netdimm, a crossover cable, raspberry pi and a sdcard required
-- supports both rasperry pi 1 & 2 (for super speedy boot times)
+- supports both rasperry pi 1, 2 & 3
+- UPDATE - now supports pi version 3 using its inbuilt wireless card
+- UPDATE - support for GPIO pins for hard-reset of games
 
-Piforce-Web uses debugmode's triforce tools to load a NetDIMM board with binaries for a Triforce, Naomi, or Chihiro arcade system. No soldering or additional components other than the raspberry pi, a low-cost USB wireless card and a SD card are required, and game selection is via a web page with images. 
+Piforce-Web uses debugmode's triforce tools to load a NetDIMM board with binaries for a Triforce, Naomi, or Chihiro arcade system. No soldering or additional components other than the raspberry pi, a low-cost USB wireless card, (if using the pi versions 1 or 2) and a SD card are required, and game selection is via a web page with images. 
 
 # Requirements
 You will need the following items to use Piforce-Web:
 
 - A Raspberry Pi - http://www.raspberrypi.org/
 - An SD Card (4GB or greater)
-- A suitable wireless card (see below)
+- A suitable wireless card (if using the pi versions 1 or 2 - see below)
 - A Naomi, Triforce, or Chihiro arcade system.
 - A Netdimm with a zero-key security PIC installed.
 - A crossover cable
@@ -25,7 +27,12 @@ You will need the following items to use Piforce-Web:
 
 # Download 
 
-The download image can be found here:
+For the raspberry pi version 3, the link is:
+
+For the raspberry pi version 3 with GPIO auto-reset (http://www.arcade-projects.com/forums/index.php?thread/615-games-that-won-t-allow-for-auto-reset-when-netbooting/&postID=6248#post6248) use:
+
+
+The download image for the pi versions 1 and 2 can be found here:
 http://www.mediafire.com/download/qpzby3nxd7hgqab/Piforce-Web_v1.0.zip
 
 # Installation
@@ -51,7 +58,9 @@ Using the image is very simple:
 
 # Supported Wireless Cards
 
-This image was created and confirmed to be working with a **Netgear wg111v2**. These cards are cheap and widely available. In theory, any card supported by a raspbian wheezy image _should _ work, however I have not tried them, and cannot guarantee it will work. A list of these cards can be found here:
+If using the pi versions 1 and 2, then a USB wireless card is required - if using the pi model 3, the inbuilt card is used!. 
+
+The image fpr the pi versions 1 and 2 was created and confirmed to be working with a **Netgear wg111v2**. These cards are cheap and widely available. In theory, any card supported by a raspbian wheezy image _should _ work, however I have not tried them, and cannot guarantee it will work. A list of these cards can be found here:
 http://elinux.org/RPi_USB_Wi-Fi_Adapters
 
 Note that if you do try multiple cards, you will need to re-burn the image each time, this is as otherwise each new card will be registered as a new interface (wlan0, wlan1, wlan2 etc) which will cause the script to fail. 
