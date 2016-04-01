@@ -1,27 +1,28 @@
 # Piforce-Web
-Piforce-Web is a raspberry pi image which loads creates a wireless access point and re-directs users to a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone/laptop/tablet.
+
+Piforce-Web is a raspberry pi image which creates a wireless access point and creates a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone, laptop or tablet.
 
 a video can be found here: https://www.youtube.com/watch?v=_-y7jqlN2ko
 
 This has the following advantages:
 
+- touch-screen web page via your phone for game selection; only the games you have loaded are shown
 - can be hidden inside the cab, so no need to open the naomi every time, or to run cables outside the cabinet
-- nice web page gui/game selection, which only shows the games you have loaded
-- fast boot times
 - no soldering required
-- just the netdimm, a crossover cable, raspberry pi and a sdcard required
-- supports both rasperry pi 1, 2 & 3
+- fast boot times
+- just the netdimm, a crossover cable, raspberry pi and a sdcard required for multiboot fun
+- supports rasperry pi 1, 2 & 3
 - UPDATE - now supports pi version 3 using its inbuilt wireless card
 - UPDATE - support for GPIO pins for hard-reset of games
 
-Piforce-Web uses debugmode's triforce tools to load a NetDIMM board with binaries for a Triforce, Naomi, or Chihiro arcade system. No soldering or additional components other than the raspberry pi, a low-cost USB wireless card, (if using the pi versions 1 or 2) and a SD card are required, and game selection is via a web page with images. 
+Piforce-Web uses debugmode's triforce tools to load a NetDIMM board with binaries for a Triforce, Naomi, or Chihiro arcade system. No soldering or additional components other than the raspberry pi,and a SD card are required, and game selection is via a web page with images. If using the pi versions 1 and 2, a wireless card is also needed. 
 
 # Requirements
 You will need the following items to use Piforce-Web:
 
 - A Raspberry Pi - http://www.raspberrypi.org/
 - An SD Card (4GB or greater)
-- A suitable wireless card (if using the pi versions 1 or 2 - see below)
+- A suitable wireless card (but only if using the pi versions 1 or 2 - see below)
 - A Naomi, Triforce, or Chihiro arcade system.
 - A Netdimm with a zero-key security PIC installed.
 - A crossover cable
@@ -30,9 +31,10 @@ You will need the following items to use Piforce-Web:
 # Download 
 
 For the raspberry pi version 3, the link is:
+http://www.mediafire.com/download/w4k01casply4uvv/pi3-4g-final.zip
 
 For the raspberry pi version 3 with GPIO auto-reset (http://www.arcade-projects.com/forums/index.php?thread/615-games-that-won-t-allow-for-auto-reset-when-netbooting/&postID=6248#post6248) use:
-
+http://www.mediafire.com/download/9bi7r087w9dwhbe/pi3-4g-gpio-final.zip
 
 The download image for the pi versions 1 and 2 can be found here:
 http://www.mediafire.com/download/qpzby3nxd7hgqab/Piforce-Web_v1.0.zip
