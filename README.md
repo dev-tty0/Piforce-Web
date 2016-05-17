@@ -12,8 +12,10 @@ This has the following advantages:
 - fast boot times
 - just the netdimm, a crossover cable, raspberry pi and a sdcard required for multiboot fun
 - supports rasperry pi 1, 2 & 3
-- UPDATE - now supports pi version 3 using its inbuilt wireless card
-- UPDATE - support for GPIO pins for hard-reset of games
+- now supports pi version 3 using its inbuilt wireless card
+- support for GPIO pins for hard-reset of games
+- UPDATE - v1.1 - Support for naomi 2 and atomswave games
+- UPDATE - v1.1 - Added shutdown and reboot links from the web page 
 
 Piforce-Web uses debugmode's triforce tools to load a NetDIMM board with binaries for a Triforce, Naomi, or Chihiro arcade system. No soldering or additional components other than the raspberry pi,and a SD card are required, and game selection is via a web page with images. If using the pi versions 1 and 2, a wireless card is also needed. 
 
@@ -31,12 +33,12 @@ You will need the following items to use Piforce-Web:
 # Download 
 
 For the raspberry pi version 3, the link is:
-http://www.mediafire.com/download/w4k01casply4uvv/pi3-4g-final.zip
+http://www.mediafire.com/download/1nbs2tb8rpap9c9/pi3-v1.1.rar
 
 For the raspberry pi version 3 with GPIO auto-reset (http://www.arcade-projects.com/forums/index.php?thread/615-games-that-won-t-allow-for-auto-reset-when-netbooting/&postID=6248#post6248) use:
 http://www.mediafire.com/download/9bi7r087w9dwhbe/pi3-4g-gpio-final.zip
 
-The download image for the pi versions 1 and 2 can be found here:
+The (legacy) download image for the pi versions 1 and 2 can be found here:
 http://www.mediafire.com/download/qpzby3nxd7hgqab/Piforce-Web_v1.0.zip
 
 # Installation
