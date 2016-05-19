@@ -33,7 +33,7 @@ You will need the following items to use Piforce-Web:
 # Download 
 
 For the raspberry pi version 3, the link is:
-http://www.mediafire.com/download/1nbs2tb8rpap9c9/pi3-v1.1.rar
+http://www.mediafire.com/download/6mcsfskfr6znvjb/pi3-v1.1.1.zip
 
 For the raspberry pi version 3 with GPIO auto-reset (http://www.arcade-projects.com/forums/index.php?thread/615-games-that-won-t-allow-for-auto-reset-when-netbooting/&postID=6248#post6248) use:
 http://www.mediafire.com/download/9bi7r087w9dwhbe/pi3-4g-gpio-final.zip
