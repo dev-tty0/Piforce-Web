@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # Piforce-Web
 
+This fork of the original code by devtty0 has an improved user interface and added features - see the help file text for more information
+
 Piforce-Web is a raspberry pi image which creates a wireless access point and creates a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone, laptop or tablet.
 
 a video can be found here: https://www.youtube.com/watch?v=_-y7jqlN2ko
