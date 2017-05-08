@@ -4,7 +4,7 @@
 # Fork specific information
 # -------------------------
 
-This fork of the original code by devtty0 has an improved user interface and added features - see the help file text for more information. The source code provided here is provided so you can see the methods used. As the SD card image contains images and videos it is too large for upload here. You will need to download the image file from this link and burn to a 4GB or higher SD card: 
+This fork of the original code by devtty0 has an improved user interface and added features - see the help file text for more information. The source code provided here is provided so you can see the methods used. As the SD card image contains images and videos it is too large for upload here. You will need to download the image file from this link and burn to a 4GB or higher SD card: https://drive.google.com/open?id=0B6kkZ_UhYmlKUHlwbTBFSEdVM1k
 
 # -------------------------
 
