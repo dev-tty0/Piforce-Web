@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Piforce-Web
 
 # Fork specific information
