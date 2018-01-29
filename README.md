@@ -5,6 +5,8 @@
 
 This fork of the original code by devtty0 has an improved user interface and added features - see the help file text for more information. The source code provided here is provided so you can see the methods used. As the SD card image contains images and videos it is too large for upload here. You will need to download the image file from this link and burn to a 4GB or higher SD card: https://drive.google.com/open?id=0B6kkZ_UhYmlKUHlwbTBFSEdVM1k
 
+Video of changes: https://www.youtube.com/watch?v=ww_yfgAagxA
+
 # -------------------------
 
 Piforce-Web is a raspberry pi image which creates a wireless access point and creates a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone, laptop or tablet.
