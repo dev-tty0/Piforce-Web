@@ -9,6 +9,8 @@ Video of changes: https://www.youtube.com/watch?v=ww_yfgAagxA
 
 Update, added card emulator for Initial D, Wangan, F-Zero and Mario Kart GP: https://www.youtube.com/watch?v=lZwW4s91PLQ&t=71s
 
+Current code is not compatible with the Pi 3B+ but an update is coming shortly!
+
 # -------------------------
 
 Piforce-Web is a raspberry pi image which creates a wireless access point and creates a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone, laptop or tablet.
