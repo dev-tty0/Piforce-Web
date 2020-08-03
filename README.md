@@ -3,13 +3,13 @@
 # Fork specific information
 # -------------------------
 
-This fork of the original code by devtty0 has an improved user interface and added features - see the help file text for more information. The source code provided here is provided so you can see the methods used. As the SD card image contains images and videos it is too large for upload here. You will need to download the image file from this link and burn to a 4GB or higher SD card: https://drive.google.com/file/d/16oML56zAEEriUj128tYNEgo732o7xxBt/view?usp=sharing
+This fork of the original code by devtty0 has an improved user interface and added features - see the help file text for more information. The source code provided here is provided so you can see the methods used. As the SD card image contains images and videos it is too large for upload here. You will need to download the image file from this link and burn to a 4GB or higher SD card: https://drive.google.com/file/d/1y_xnmCFS-C8uvzaVMZc1V3D3PeYaqaqx/view?usp=sharing
 
 Video of changes: https://www.youtube.com/watch?v=ww_yfgAagxA
 
 Update, added card emulator for Initial D, Wangan, F-Zero and Mario Kart GP: https://www.youtube.com/watch?v=lZwW4s91PLQ&t=71s
 
-Current code is now compatible with Pi 3B, 3B+ and Pi 4
+Current code is now compatible with Pi 3B, 3B+ and Pi 4 and includes support for LCD 16x2 and 480x320 touchscreen LCDs
 
 # -------------------------
 
