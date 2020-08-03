@@ -9,7 +9,7 @@ Video of changes: https://www.youtube.com/watch?v=ww_yfgAagxA
 
 Update, added card emulator for Initial D, Wangan, F-Zero and Mario Kart GP: https://www.youtube.com/watch?v=lZwW4s91PLQ&t=71s
 
-Current code is now compatible with Pi 3B, 3B+ and Pi 4 and includes support for LCD 16x2 and 480x320 touchscreen LCDs
+Current code is now compatible with Pi 3B, 3B+ and Pi 4 and includes support for 16x2 LCDs and 480x320 touchscreen LCDs
 
 # -------------------------
 
