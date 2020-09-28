@@ -1,5 +1,19 @@
-<<<<<<< HEAD
 # Piforce-Web
+
+# Fork specific information
+# -------------------------
+
+This fork of the original code by devtty0 has an improved user interface and added features - see the help file text for more information. The source code provided here is provided so you can see the methods used. As the SD card image contains images and videos it is too large for upload here. You will need to download the image file from this link and burn to a 4GB or higher SD card: https://drive.google.com/file/d/1q2HMvMnYZonoecYfX9O9KqUtpvazENT1/view?usp=sharing
+
+Video of changes: https://www.youtube.com/watch?v=ww_yfgAagxA
+
+Update, added card emulator for Initial D, Wangan, F-Zero and Mario Kart GP: https://www.youtube.com/watch?v=lZwW4s91PLQ&t=71s
+
+Current code is now compatible with Pi 3B, 3B+ and Pi 4 and includes support for 16x2 LCDs and 480x320 touchscreen LCDs
+
+Now supports a time hack so you don't need to use a zero pic chip and multiple dimm support
+
+# -------------------------
 
 Piforce-Web is a raspberry pi image which creates a wireless access point and creates a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone, laptop or tablet.
 

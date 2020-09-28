@@ -1,0 +1,1 @@
+Logical link to /boot/config/images

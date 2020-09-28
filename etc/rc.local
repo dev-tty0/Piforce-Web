@@ -1,0 +1,22 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+#set a static ip on wlan0
+ifconfig wlan0 192.168.6.1/24 &
+ifconfig eth0 192.168.1.1/24 &
+service isc-dhcp-server start &
+
+#create the index for the web server
+python /sbin/piforce/check.py &
+
+exit 0
