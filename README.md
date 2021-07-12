@@ -13,7 +13,7 @@ Current code is now compatible with Pi 3B, 3B+ and Pi 4 and includes support for
 
 Now supports a time hack so you don't need to use a zero pic chip and multiple dimm support
 
-***NOTE - this project evolved into the WiPi Netbooter project, please see that repository for the latest code release***
+***NOTE - this project evolved into the WiPiNetbooter project, please see that repository for the latest code release***
 
 # -------------------------
 
