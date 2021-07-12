@@ -13,6 +13,8 @@ Current code is now compatible with Pi 3B, 3B+ and Pi 4 and includes support for
 
 Now supports a time hack so you don't need to use a zero pic chip and multiple dimm support
 
+NOTE - this project evolved into the WiPi Netbooter project, please see that repository for the latest code release
+
 # -------------------------
 
 Piforce-Web is a raspberry pi image which creates a wireless access point and creates a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone, laptop or tablet.
