@@ -15,6 +15,8 @@ Now supports a time hack so you don't need to use a zero pic chip and multiple d
 
 ***NOTE - this project evolved into the WiPiNetbooter project, please see that repository for the latest code release***
 
+https://github.com/chunksin/WiPiNetbooter
+
 # -------------------------
 
 Piforce-Web is a raspberry pi image which creates a wireless access point and creates a web-page containing images and links to the naomi games which you own, and allows you to netboot these games from your phone, laptop or tablet.
